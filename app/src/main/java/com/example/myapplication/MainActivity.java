@@ -114,7 +114,6 @@ public class MainActivity extends AppCompatActivity {
                             word.setVisibility(View.INVISIBLE);
                         }
                         if (loss() == true) {
-                            //System.out.println(loss());
                             hahaha.setVisibility(View.VISIBLE);
                             button.setClickable(false);
                             button.setTextColor(Color.GRAY);
